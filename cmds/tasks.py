@@ -22,6 +22,7 @@ class Tasks(Cog_Extension):
 	@commands.command
 	async def set_channel(self, ctx, ch:int):
 		self.channel = self.bot.get_channel(ch)
+		await ctx.send(f'Set Channel : {self.channel.mention}')
 
 def setup(bot):
 	bot.add_cog(Tasks(bot))
