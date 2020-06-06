@@ -19,7 +19,7 @@ class Tasks(Cog_Extension):
 
 		self.bg_task = self.bot.loop.create_task(interval())
 
-	@commands.command
+	@commands.command()
 	async def set_channel(self, ctx, ch:int):
 		self.channel = self.bot.get_channel(ch)
 		await ctx.send(f'Set Channel : {self.channel.mention}')
