@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import random
 
 with open('settings.json', 'r', encoding='utf8') as settings:
     botconfig = json.load(settings)
@@ -27,7 +28,8 @@ async def ping(ctx):
     await ctx.send(f'{round(bot.latency*1000)} ms')
 
 @bot.command()
-async def funcname(parameter_list):
-    pass
+async def picture(ctx):
+    random_pic = random.choice(botconfig['pic'])
+    await ctx.send(random_pic)
 
 bot.run(botconfig['TOKEN'])
