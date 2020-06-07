@@ -14,6 +14,8 @@
 	其他功能正在開發中!!!
 
 # 特別感謝
-  <a herf="https://www.youtube.com/channel/UCczXI0u-LKlX-oBwrkKtOdg">Proladon的頻道 提供了詳細的教學影片<br>
-  金桔蘿莉控#4210 推薦了我Proladon的頻道和長時間陪我討論<br>
-  凜夜楓 給了我一些覆蓋Help頁面的提示和大部分功能的建議做法<br>
+  Proladon的頻道<https://www.youtube.com/channel/UCczXI0u-LKlX-oBwrkKtOdg>：<br>
+  提供了詳細的教學影片<br>
+  金桔蘿莉控#4210：<br>
+  推薦了我Proladon的頻道和長時間陪我討論<br>
+  凜夜楓：<br>給了我一些覆蓋Help頁面的提示和大部分功能的建議做法<br>
