@@ -5,7 +5,7 @@
 # Commands
   本機器人的前墜代碼為$符號<br>
   help 在Discord查看指令列表<br>
-  clean <int> 清除指定數量訊息(須具有管理員權限)<br>
+  clean &lt;int&gt; 清除指定數量訊息(須具有管理員權限)<br>
   about 顯示關於頁面(本頁)<br>
   ping 顯示延遲(單位ms)<br>
   said 由機器人代發訊息<br>
