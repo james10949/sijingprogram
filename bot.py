@@ -24,16 +24,19 @@ async def help(ctx):
 	await ctx.send(embed = embed)
 
 @bot.command()
+@commands.is_owner()
 async def load(ctx, extension):
 	bot.load_extension(f'cmds.{extension}')
 	await ctx.send(f'Loaded {extension} done')
 
 @bot.command()
+@commands.is_owner()
 async def unload(ctx, extension):
 	bot.unload_extension(f'cmds.{extension}')
 	await ctx.send(f'Unloaded {extension} done')
 
 @bot.command()
+@commands.is_owner()
 async def reload(ctx, extension):
 	bot.reload_extension(f'cmds.{extension}')
 	await ctx.send(f'Reloaded {extension} done')
